@@ -76,13 +76,24 @@ JWT_EXPIRES_IN=1d
 npx sequelize db:migrate
 ```
 
-### 5. Start Backend
+### 5. Run Seeder - Create Admin User
+
+```
+npx sequelize db:seed:all
+```
+#### Admin User Credentials
+
+Email: admin@example.com
+
+Password: admin123
+
+### 6. Start Backend
 
 ```
 npm start
 ```
 
-### 6. Start Frontend
+### 7. Start Frontend
 
 ```
 cd ../frontend
